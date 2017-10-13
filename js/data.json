@@ -1,0 +1,16 @@
+{
+	"Personal":[{"Name":"Jesus René Merlos Galván","Age":"34"}],
+	"Education":[{"University":"Universidad La Salle", "Degree":"Licenciatura en Informática Administrativa"}],
+	"Professional":[{"Job Title":"", "Enterprise":"", "Boss":"", "Description":"", "StartDate":"", "EndDate":""},
+					{"Job Title":"", "Enterprise":"", "Boss":"", "Description":"", "StartDate":"", "EndDate":""},
+					{"Job Title":"", "Enterprise":"", "Boss":"", "Description":"", "StartDate":"", "EndDate":""},
+					{"Job Title":"", "Enterprise":"", "Boss":"", "Description":"", "StartDate":"", "EndDate":""}],
+	"Skills":[{"name":""},
+			  {"name":""},
+			  {"name":""},
+			  {"name":""},
+		      {"name":""},],
+	"Laguages":[{"name":""},
+				{"name":""},
+				{"name":""}]
+}
