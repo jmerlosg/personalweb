@@ -1,48 +1,32 @@
 <!DOCTYPE html>
-<html ng-app="personalweb">
+<html ng-app="personalweb" ng-controller="personalCtrl">
 <head>
 	<title>LIA. Jesús René Merlos Galván</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="#">LIA. JESUS RENE MERLOS GALVAN</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+	<div ng-include="MainMenu"></div>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Acerca de mi <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Formación y estudios</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Experiencia</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Habilidades y más...</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
-
-	<br>
-
-	
-
-	<br>
-
+	<div class="container">
+		<div ng-view></div>
+	</div>
 
 	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-route.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script src="js/app.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/acercaCtrl.js"></script>
+	<script src="js/experienciaCtrl.js"></script>
+	<script src="js/formacionCtrl.js"></script>
+	<script src="js/habilidadesCtrl.js"></script>
+	<script src="js/contactoCtrl.js"></script>
 	
 
 </body>
